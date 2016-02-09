@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" >
+ <link rel="stylesheet" href="css/leaflet.css"/>
+<link rel="stylesheet" href="css/styles.css" >
+<!-- cargamos jQuery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<!-- Js de boostrap -->
+<script src="js/leaflet.js"></script>
+<script src="js/leaflet-geoip.js"></script>
+<script src="js/l.control.geosearch.js"></script>
+<script src="js/l.geosearch.provider.openstreetmap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/codigo.js"></script>
+<title> Mapa - Prevision Meteorologica</title
+</head>
+<body>
+  <header><h1 class= text-center> Prevision Meteorologica y Mapa Mundi </h1></header>
+<div class="container-fluid">
+	<main class="row">
+		<aside id="meteo" role="complementary" aria-labelledby="informacion-meterologica" class="col-xs-4">
+			<div class="panel panel-default">
+				<div id="n_ciudad" class="panel-heading text-center"></div>
+					<div id="meteo_info"class="panel-body">
+						<div class="row">
+						<!-- cada uno de los dias
+
+						<div class="col-xs-3">
+
+						</div>
+						-->
+						</div>
+
+					</div>
+				</div>
+		</aside>
+		<article class="col-xs-4">
+			 <header><h2 class="text-center"> Mapa de OSM </h2></header>
+		</article>
+    <arcticle class ="col-xs-4">
+      <div >
+        <img class ="img-responsive" id="pupi" src ="imagenes/gugen-3.jpg" alt="Imange de Pupi">
+    </div>
+    </article>
+	</div>
+
+	<div id="map" class = "img-responsive"></div>
+	<script src="js/world.js"></script>
+	</main>
+
+
+
+</body>
+</html>
